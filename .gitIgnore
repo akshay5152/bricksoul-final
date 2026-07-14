@@ -1,13 +1,28 @@
+# dependencies
 /node_modules
+
+# next.js
+/.next/
+/out/
+
+# build
 /dist
 /build
+
+# misc
 /coverage
 /logs
 /temp
 /cache
 /backup
 /old
-/temp
-/cache
-/backup
-/old
+*.log
+.DS_Store
+
+# env
+.env
+.env*.local
+
+# typescript
+next-env.d.ts
+*.tsbuildinfo
