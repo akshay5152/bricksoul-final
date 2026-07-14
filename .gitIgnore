@@ -1,13 +1,30 @@
-/node_modules
-/dist
-/build
-/coverage
-/logs
-/temp
-/cache
-/backup
-/old
-/temp
-/cache
-/backup
-/old
+# dependencies
+node_modules/
+
+# Next.js / build
+.next/
+dist/
+build/
+out/
+
+# test / coverage
+coverage/
+
+# env & local
+.env
+.env*.local
+next-env.d.ts
+
+# logs & temp
+logs/
+temp/
+cache/
+backup/
+old/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
